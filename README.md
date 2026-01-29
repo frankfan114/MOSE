@@ -1,6 +1,6 @@
 # Multiplicative Orthogonal Sequential Editing for Language Models
 
-This repo contains the source code for the paper: *Multiplicative Orthogonal Sequential Editing for Language Models*
+This repo contains the source code for the paper: *Multiplicative Orthogonal Sequential Editing for Language Models*. (AAAI 2026)
 
 Our repo is built on [EasyEdit](https://github.com/zjunlp/EasyEdit/tree/main). We thank them for their excellent work. Please follow its instructions for installation.
 
