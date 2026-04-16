@@ -22,9 +22,12 @@ from .. models.deepedit_api import DeepEditApiHyperParams, apply_deepedit_api_to
 from ..models.dpo import DPOHyperParams, apply_dpo_to_model
 from ..models.ultraedit import UltraEditHyperParams, UltraEditRewriteExecutor
 from ..models.simie import SimIEHyperParams, apply_simie_to_model
+from ..models.mose import MOSEHyperParams, apply_mose_to_model
 
 
 ALG_DICT = {
+    "OFT": apply_mose_to_model,
+    "MOSE": apply_mose_to_model,
     'ROME': apply_rome_to_model,
     'MEMIT': apply_memit_to_model,
     "FT": apply_ft_to_model,
